@@ -48,6 +48,9 @@
 	\item %e
 	$\forall \square ((\lnot run_1 \cup run_2) \land (\lnot run_2 \cup run_1))$
 	\item %f
+	This cannot be expressed in CTL because the "if \dots, then \dots" cannot be expressed in CTL. You would need an implication of the form $"\dots \rightarrow \square \dots"$ or a weak until. Both of them are not available in CTL.
+
+	In LTL it can be axpressed as $run_1 W run_2$.
 	\item %g
 	\item %h
 	\item %i
