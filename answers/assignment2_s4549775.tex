@@ -56,8 +56,11 @@
 
 	It can also not be expressed in LTL because there is no "possibly", due to LTL dealing with single branches.
 	\item %h
+	$(\forall \square \exists \diamond stop_1) \land (\forall \square \exists \diamond stop_2)$
 	\item %i
+	This cannot be expressed in CTL because the "if \dots, then \dots" cannot be expressed in CTL. You would need an implication of the form $"\dots \rightarrow \square \dots"$.
 	\item %j
+	$\forall \square (run_1 \rightarrow \exists (\lnot run_1 \cup run_2))$
 \end{enumerate}
 
 \end{document}
